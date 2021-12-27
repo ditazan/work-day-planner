@@ -1,4 +1,4 @@
-# Work Day Scheduler Starter Code
+# Work Day Scheduler ode
 https://ditazan.github.io/work-day-planner/
 
 <img src="./assets/ss.png">
