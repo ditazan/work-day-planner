@@ -1,4 +1,4 @@
-# Work Day Scheduler ode
+# Work Day Scheduler
 https://ditazan.github.io/work-day-planner/
 
 <img src="./assets/ss.png">
