@@ -12,4 +12,4 @@ https://ditazan.github.io/work-day-planner/
 - moment.js
 
 ## how it works
-Organize your work day through this app that highlights the current hour block red. Future hour blocks are highlighted green and past hours are grey. Event blocks are editable and are saved to the users localstorage.
+Organize your work day through this app. The current hour block is highlighted red, future hour blocks are highlighted green, and past hours are grey. Event blocks are editable and are saved to the users localstorage.
