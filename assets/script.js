@@ -29,10 +29,10 @@ var loadEvents = function () {
 var createHour = function (hours, time, event) {
 
   
-  var timeBlock = $("<div id='" + hours + "' class='row timeblock'></div>");
+  var timeBlock = $("<div id='" + hours + "' class='row timeblock time-block'></div>");
   timeBlock.append("<div class='col p-3 hour'>" + time + "</div>");
   timeBlock.append(
-    "<div class='col-xs col-sm-8 col-lg-10 event'><textarea class='w-100 event-text'>" +
+    "<div class='col-xs col-sm-8 col-lg-10 event'><textarea class='w-100 event-text description'>" +
       event +
       "</textarea></div>"
   );
