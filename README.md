@@ -1,7 +1,7 @@
 # Work Day Scheduler Starter Code
 https://ditazan.github.io/work-day-planner/
 
-\assets\ss.png
+/assets/ss.png
 
 ## languages and libraries utilized
 - html
