@@ -25,20 +25,21 @@ var createHour = function (hours, time) {
 };
 
 $.each(workHours, function (i) {
-  if (currentHr === workHours[i].hour) {
-    $("#event").addClass("present");
-    $("#event").removeClass("future");
-    $("#event").removeClass("past");
-  } else if (currentHr < workHours[i].hour) {
-    $("#event").addClass("future");
-    $("#event").removeClass("present");
-    $("#event").removeClass("past");
-  } else{
-    $("#event").addClass("past");
-    $("#event").removeClass("future");
-    $("#event").removeClass("present");
-  }
   createHour(workHours[i].hour, workHours[i].time);
+  if (currentHr === workHours[i].hour) {
+    $("div #event").addClass("present");
+    $("div #event").removeClass("future");
+    $("div #event").removeClass("past");
+  } else if (currentHr < workHours[i].hour) {
+    $("div #event").addClass("future");
+    $("div #event").removeClass("present");
+    $("div #event").removeClass("past");
+  } else{
+    $("div #event").addClass("past");
+    $("div #event").removeClass("future");
+    $("div #event").removeClass("present");
+  }
+  
   console.log(workHours[i].hour);
 });
 
